@@ -17,8 +17,8 @@ const Notes = ({notes}) => {
                {
                 notes.map(note => <NoteItem key={note.id} note={note} />)
                }
-               <Link className='btn add__btn'><BsPlusLg/></Link>
             </div>
+            <Link to="/create-note" className='btn add__btn'><BsPlusLg/></Link>
         </section>
         
     )
