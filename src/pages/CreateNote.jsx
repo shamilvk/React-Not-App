@@ -35,7 +35,7 @@ const CreateNote = ({setNotes}) => {
       <form className='create-note__form' onSubmit={handleSubmit}>
         <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)}
          autoFocus/>
-        <textarea  rows='28' placeholder="Note details..." value={details} onChange={(e) => setDetails(e.target.value)}></textarea>
+        <textarea  rows='50' placeholder="Note details..." value={details} onChange={(e) => setDetails(e.target.value)}></textarea>
       </form>
     </section>
   )
